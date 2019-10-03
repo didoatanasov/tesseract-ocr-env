@@ -5,7 +5,7 @@
 # http://www.leptonica.org/source/README.html
 #
 
-ARG RELEASE=latest
+ARG RELEASE=18.04
 
 FROM ubuntu:${RELEASE}
 
