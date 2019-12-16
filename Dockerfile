@@ -7,14 +7,28 @@
 
 ARG RELEASE=18.04
 
-FROM ubuntu:${RELEASE}
+#FROM ubuntu:${RELEASE}
+FROM continuumio/miniconda:latest
+MAINTAINER Deyan Atanasov "dido@omisoft.eu"
+WORKDIR /home
+COPY environment.yml ./
+COPY server.py ./
+COPY image_process.py ./
+COPY static ./
+COPY templates ./
+RUN conda env create -f environment.yml
+
+RUN echo "source activate ocr" > ~/.bashrc
+ENV PATH /opt/conda/envs/ocr/bin:$PATH
+
+
 
 RUN apt-get update && apt-get install -y \
 	autoconf \
 	autoconf-archive \
 	automake \
 	build-essential \
-	checkinstall \
+	#checkinstall \
 	cmake \
 	g++ \
 	git \
@@ -31,21 +45,10 @@ RUN apt-get update && apt-get install -y \
 	pkg-config \
 	wget \
 	xzgv \
-	zlib1g-dev 
+	zlib1g-dev  \
+	python-pip \
+	python-dev
 
-
-# SSH for diagnostic
-RUN apt-get update && apt-get install -y --allow-downgrades --allow-remove-essential --allow-change-held-packages openssh-server
-RUN mkdir /var/run/sshd
-RUN echo 'root:troubl3tim3' | chpasswd
-RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
-# SSH login fix. Otherwise user is kicked off after login
-RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd
-ENV NOTVISIBLE "in users profile"
-RUN echo "export VISIBLE=now" >> /etc/profile
-
-EXPOSE 22
-CMD ["/usr/sbin/sshd", "-D"]
 
 # Directories
 ENV SCRIPTS_DIR /home/scripts
@@ -67,6 +70,9 @@ RUN chmod +x ${SCRIPTS_DIR}/*
 RUN ${SCRIPTS_DIR}/repos_clone.sh
 RUN ${SCRIPTS_DIR}/tessdata_download.sh
 
-WORKDIR /home
+ENTRYPOINT [ "python" ]
 
+CMD [ "server.py" ]
+WORKDIR /home
+EXPOSE 5000
 
