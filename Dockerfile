@@ -10,6 +10,8 @@ FROM continuumio/miniconda:latest
 MAINTAINER Deyan Atanasov "dido@omisoft.eu"
 WORKDIR /home
 
+COPY environment.yml ./
+
 RUN conda env create -f environment.yml
 
 RUN echo "source activate ocr" > ~/.bashrc
