@@ -5,17 +5,11 @@
 # http://www.leptonica.org/source/README.html
 #
 
-ARG RELEASE=18.04
 
-#FROM ubuntu:${RELEASE}
 FROM continuumio/miniconda:latest
 MAINTAINER Deyan Atanasov "dido@omisoft.eu"
 WORKDIR /home
-COPY environment.yml ./
-COPY server.py ./
-COPY image_process.py ./
-COPY static ./
-COPY templates ./
+
 RUN conda env create -f environment.yml
 
 RUN echo "source activate ocr" > ~/.bashrc
@@ -47,7 +41,8 @@ RUN apt-get update && apt-get install -y \
 	xzgv \
 	zlib1g-dev  \
 	python-pip \
-	python-dev
+	python-dev \
+	libgl1-mesa-glx
 
 
 # Directories
@@ -70,9 +65,5 @@ RUN chmod +x ${SCRIPTS_DIR}/*
 RUN ${SCRIPTS_DIR}/repos_clone.sh
 RUN ${SCRIPTS_DIR}/tessdata_download.sh
 
-ENTRYPOINT [ "python" ]
 
-CMD [ "server.py" ]
-WORKDIR /home
-EXPOSE 5000
 
