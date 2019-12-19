@@ -66,6 +66,9 @@ COPY ./container-scripts/* ${SCRIPTS_DIR}/
 RUN chmod +x ${SCRIPTS_DIR}/*
 RUN ${SCRIPTS_DIR}/repos_clone.sh
 RUN ${SCRIPTS_DIR}/tessdata_download.sh
+RUN ${SCRIPTS_DIR}/compile_leptonica.sh
+RUN ${SCRIPTS_DIR}/compile_tesseract.sh
+
 
 
 
