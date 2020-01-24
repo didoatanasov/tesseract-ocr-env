@@ -1,4 +1,4 @@
-name: ocr
+name: ocrenv
 channels:
   - rex-it-admin
   - anaconda
