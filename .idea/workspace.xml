@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c564f54-5b23-4d37-bba2-92a0f01c7f70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile-PPC" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile-PPC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.ppc64le.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.ppc64le.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
       <workItem from="1576743174805" duration="729000" />
       <workItem from="1576744317189" duration="4131000" />
       <workItem from="1579699509470" duration="8953000" />
-      <workItem from="1579767249468" duration="16124000" />
+      <workItem from="1579767249468" duration="16243000" />
     </task>
     <task id="LOCAL-00001" summary="Added flask server to mix">
       <created>1576510577059</created>
