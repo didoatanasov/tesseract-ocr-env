@@ -4,7 +4,6 @@
     <list default="true" id="8c564f54-5b23-4d37-bba2-92a0f01c7f70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile-PPC" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile-PPC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,7 @@
       <workItem from="1576743174805" duration="729000" />
       <workItem from="1576744317189" duration="4131000" />
       <workItem from="1579699509470" duration="8953000" />
-      <workItem from="1579767249468" duration="15879000" />
+      <workItem from="1579767249468" duration="16124000" />
     </task>
     <task id="LOCAL-00001" summary="Added flask server to mix">
       <created>1576510577059</created>
@@ -198,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579873472353</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added ppc64le architecture">
+      <created>1579878923045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579878923045</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added ppc64le architecture">
+      <created>1579878959893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579878959894</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,11 +241,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2611" y="344" width="522" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579700267360" />
-    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2" timestamp="1579878922964">
+    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2" timestamp="1579878959748">
       <screen x="0" y="25" width="3840" height="1055" />
     </state>
     <state x="2175" y="127" key="CommitChangelistDialog2/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579699637344" />
-    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2/0.25.3840.1055@0.25.3840.1055" timestamp="1579878922964" />
+    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2/0.25.3840.1055@0.25.3840.1055" timestamp="1579878959748" />
     <state x="255" y="154" key="CommitChangelistDialog2/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576767566348" />
     <state x="2175" y="127" width="866" height="807" key="CommitChangelistDialog2/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576744414059" />
     <state x="510" y="154" width="895" height="807" key="CommitChangelistDialog2/0.31.3840.1049@0.31.3840.1049" timestamp="1576514137398" />
@@ -264,11 +277,11 @@
       <screen x="0" y="31" width="3840" height="1049" />
     </state>
     <state x="449" y="192" width="1022" height="732" key="SettingsEditor/0.31.3840.1049@0.31.3840.1049" timestamp="1576510238882" />
-    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1579878924067">
+    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1579878960838">
       <screen x="0" y="25" width="3840" height="1055" />
     </state>
     <state x="2198" y="270" key="Vcs.Push.Dialog.v2/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579699640034" />
-    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.3840.1055@0.25.3840.1055" timestamp="1579878924067" />
+    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.3840.1055@0.25.3840.1055" timestamp="1579878960838" />
     <state x="278" y="293" key="Vcs.Push.Dialog.v2/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576767568597" />
     <state x="2198" y="270" width="509" height="546" key="Vcs.Push.Dialog.v2/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576744415367" />
     <state x="555" y="293" width="806" height="530" key="Vcs.Push.Dialog.v2/0.31.3840.1049@0.31.3840.1049" timestamp="1576514138580" />

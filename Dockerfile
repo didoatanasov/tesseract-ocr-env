@@ -14,8 +14,8 @@ COPY environment.yml ./
 
 RUN conda env create -f environment.yml
 
-RUN echo "source activate ocr" > ~/.bashrc
-ENV PATH /opt/conda/envs/ocr/bin:$PATH
+RUN echo "source activate ocrenv" > ~/.bashrc
+ENV PATH /opt/conda/envs/ocrenv/bin:$PATH
 
 
 
