@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c564f54-5b23-4d37-bba2-92a0f01c7f70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile-PPC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-ppc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-ppc.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Rhx82JESUmdPB1OevqkECsY3s1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.server">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tesseract-ocr-env" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="omisoft/tesseractocr:1.0.0" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c564f54-5b23-4d37-bba2-92a0f01c7f70" name="Default Changelist" comment="" />
+      <created>1570132965718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570132965718</updated>
+      <workItem from="1570132967297" duration="1529000" />
+      <workItem from="1570526766056" duration="61000" />
+      <workItem from="1570526871730" duration="264000" />
+      <workItem from="1576488468232" duration="6550000" />
+      <workItem from="1576574835009" duration="6273000" />
+      <workItem from="1576655507759" duration="832000" />
+      <workItem from="1576736034375" duration="4186000" />
+      <workItem from="1576743174805" duration="729000" />
+      <workItem from="1576744317189" duration="4131000" />
+      <workItem from="1579699509470" duration="8953000" />
+      <workItem from="1579767249468" duration="13622000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added flask server to mix">
+      <created>1576510577059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576510577059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added flask server to mix">
+      <created>1576514137510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576514137510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added flask server to mix">
+      <created>1576744333775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576744333775</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added flask server to mix">
+      <created>1576744414218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576744414218</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added flask server to mix">
+      <created>1576767566513</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576767566513</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added ppc64le architecture">
+      <created>1579699637460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579699637460</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added flask server to mix" />
+    <MESSAGE value="Added ppc64le architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ppc64le architecture" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2611" y="344" width="522" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579700267360">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2611" y="344" width="522" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579700267360" />
+    <state x="2175" y="127" width="866" height="807" key="CommitChangelistDialog2" timestamp="1579699637344">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2175" y="127" key="CommitChangelistDialog2/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579699637344" />
+    <state x="255" y="154" key="CommitChangelistDialog2/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576767566348" />
+    <state x="2175" y="127" width="866" height="807" key="CommitChangelistDialog2/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576744414059" />
+    <state x="510" y="154" width="895" height="807" key="CommitChangelistDialog2/0.31.3840.1049@0.31.3840.1049" timestamp="1576514137398" />
+    <state width="939" height="288" key="GridCell.Tab.0.bottom" timestamp="1576742828441">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="288" key="GridCell.Tab.0.bottom/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576742828441" />
+    <state width="939" height="278" key="GridCell.Tab.0.bottom/0.31.3840.1049@0.31.3840.1049" timestamp="1576514146366" />
+    <state width="939" height="288" key="GridCell.Tab.0.center" timestamp="1576742828441">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="288" key="GridCell.Tab.0.center/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576742828441" />
+    <state width="939" height="278" key="GridCell.Tab.0.center/0.31.3840.1049@0.31.3840.1049" timestamp="1576514146366" />
+    <state width="939" height="288" key="GridCell.Tab.0.left" timestamp="1576742828441">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="288" key="GridCell.Tab.0.left/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576742828441" />
+    <state width="939" height="278" key="GridCell.Tab.0.left/0.31.3840.1049@0.31.3840.1049" timestamp="1576514146365" />
+    <state width="939" height="288" key="GridCell.Tab.0.right" timestamp="1576742828441">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="939" height="288" key="GridCell.Tab.0.right/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576742828441" />
+    <state width="939" height="278" key="GridCell.Tab.0.right/0.31.3840.1049@0.31.3840.1049" timestamp="1576514146366" />
+    <state x="2642" y="254" width="467" height="568" key="RollbackChangesDialog" timestamp="1579868817464">
+      <screen x="0" y="25" width="3840" height="1055" />
+    </state>
+    <state x="2642" y="254" width="467" height="568" key="RollbackChangesDialog/0.25.3840.1055@0.25.3840.1055" timestamp="1579868817464" />
+    <state x="449" y="192" width="1022" height="732" key="SettingsEditor" timestamp="1576510238882">
+      <screen x="0" y="31" width="3840" height="1049" />
+    </state>
+    <state x="449" y="192" width="1022" height="732" key="SettingsEditor/0.31.3840.1049@0.31.3840.1049" timestamp="1576510238882" />
+    <state x="2198" y="270" width="509" height="546" key="Vcs.Push.Dialog.v2" timestamp="1579699640034">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2198" y="270" key="Vcs.Push.Dialog.v2/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579699640034" />
+    <state x="278" y="293" key="Vcs.Push.Dialog.v2/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576767568597" />
+    <state x="2198" y="270" width="509" height="546" key="Vcs.Push.Dialog.v2/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576744415367" />
+    <state x="555" y="293" width="806" height="530" key="Vcs.Push.Dialog.v2/0.31.3840.1049@0.31.3840.1049" timestamp="1576514138580" />
+    <state x="653" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579767244102">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="653" y="380" key="com.intellij.ide.util.TipDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1579767244102" />
+    <state x="613" y="297" width="694" height="520" key="find.popup" timestamp="1576575011539">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="613" y="297" width="694" height="520" key="find.popup/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576575011539" />
+    <state x="312" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1576608639170">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="312" y="263" width="672" height="678" key="search.everywhere.popup/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576608639170" />
+    <state x="623" y="263" width="672" height="678" key="search.everywhere.popup/0.31.3840.1049@0.31.3840.1049" timestamp="1576513439358" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tesseract_ocr_env$server.coverage" NAME="server Coverage Results" MODIFIED="1576736649394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
