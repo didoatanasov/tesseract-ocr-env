@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c564f54-5b23-4d37-bba2-92a0f01c7f70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build.ppc64le.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.ppc64le.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment_ppc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/environment_ppc.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,9 @@
       <workItem from="1576743174805" duration="729000" />
       <workItem from="1576744317189" duration="4131000" />
       <workItem from="1579699509470" duration="8953000" />
-      <workItem from="1579767249468" duration="16243000" />
+      <workItem from="1579767249468" duration="17503000" />
+      <workItem from="1579936829876" duration="628000" />
+      <workItem from="1579954099160" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="Added flask server to mix">
       <created>1576510577059</created>
@@ -210,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579878959894</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added ppc64le architecture">
+      <created>1579879277423</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579879277423</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,11 +250,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2611" y="344" width="522" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579700267360" />
-    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2" timestamp="1579878959748">
+    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2" timestamp="1579879277336">
       <screen x="0" y="25" width="3840" height="1055" />
     </state>
     <state x="2175" y="127" key="CommitChangelistDialog2/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579699637344" />
-    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2/0.25.3840.1055@0.25.3840.1055" timestamp="1579878959748" />
+    <state x="75" y="166" width="770" height="800" key="CommitChangelistDialog2/0.25.3840.1055@0.25.3840.1055" timestamp="1579879277336" />
     <state x="255" y="154" key="CommitChangelistDialog2/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576767566348" />
     <state x="2175" y="127" width="866" height="807" key="CommitChangelistDialog2/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576744414059" />
     <state x="510" y="154" width="895" height="807" key="CommitChangelistDialog2/0.31.3840.1049@0.31.3840.1049" timestamp="1576514137398" />
@@ -276,18 +286,18 @@
       <screen x="0" y="31" width="3840" height="1049" />
     </state>
     <state x="449" y="192" width="1022" height="732" key="SettingsEditor/0.31.3840.1049@0.31.3840.1049" timestamp="1576510238882" />
-    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1579878960838">
+    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2" timestamp="1579879279282">
       <screen x="0" y="25" width="3840" height="1055" />
     </state>
     <state x="2198" y="270" key="Vcs.Push.Dialog.v2/0.25.1920.1055/1920.0.1920.1080@1920.0.1920.1080" timestamp="1579699640034" />
-    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.3840.1055@0.25.3840.1055" timestamp="1579878960838" />
+    <state x="556" y="289" width="802" height="523" key="Vcs.Push.Dialog.v2/0.25.3840.1055@0.25.3840.1055" timestamp="1579879279282" />
     <state x="278" y="293" key="Vcs.Push.Dialog.v2/0.31.1920.1049/1920.0.1920.1080@0.31.1920.1049" timestamp="1576767568597" />
     <state x="2198" y="270" width="509" height="546" key="Vcs.Push.Dialog.v2/0.31.1920.1049/1920.0.1920.1080@1920.0.1920.1080" timestamp="1576744415367" />
     <state x="555" y="293" width="806" height="530" key="Vcs.Push.Dialog.v2/0.31.3840.1049@0.31.3840.1049" timestamp="1576514138580" />
-    <state x="653" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579767244102">
+    <state x="653" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579968238865">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="653" y="380" key="com.intellij.ide.util.TipDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1579767244102" />
+    <state x="653" y="380" key="com.intellij.ide.util.TipDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1579968238865" />
     <state x="613" y="297" width="694" height="520" key="find.popup" timestamp="1576575011539">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
